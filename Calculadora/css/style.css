@@ -1,0 +1,48 @@
+
+.contenedor{
+    display: grid;
+    grid-template-columns:auto;
+    row-gap: 10px;
+}
+
+.inputs{
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 30px;
+    margin-bottom: 60px;
+}
+
+
+
+
+
+@media(min-width:450px){
+.contenedor{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns:200px 200px;
+    gap: 5px;
+    
+}
+.inputs{
+    display: flex;
+    
+    
+}
+}
+
+input{
+    margin: 5px;
+    margin-left: 0;
+}
+
+button{
+    width: 100%;
+    border: none;
+    padding: 20px;
+}
+
+input{
+    
+    font-size: 20px;
+}
