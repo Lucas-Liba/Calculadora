@@ -2,7 +2,7 @@ const campo1 = document.querySelector("#campo1");
 
 const campo2 = document.querySelector("#campo2");
 
-let numero1 = null,
+let numero1,
   numero2;
 
 campo1.addEventListener("input", (e) => (numero1 = e.target.value));
